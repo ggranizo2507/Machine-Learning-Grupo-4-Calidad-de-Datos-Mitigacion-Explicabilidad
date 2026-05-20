@@ -99,7 +99,7 @@ El notebook `Burnout_Grupo4_Pipeline_Unificado.ipynb` contiene **19 celdas** org
 ### Opción A — Google Colab (recomendado)
 
 1. Abrir [Google Colab](https://colab.research.google.com/)
-2. Subir el archivo `Burnout_Grupo4_Pipeline_Unificado.ipynb`
+2. Subir el archivo `Calidad-de-Datos-Mitigacion-Explicabilidad_Grupo-4.ipynb`
 3. Subir el dataset `developer_burnout_dataset.csv` a `/content/`
 4. Ejecutar todas las celdas en orden (`Runtime → Run all`)
 
