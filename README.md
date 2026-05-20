@@ -29,7 +29,7 @@ Todo el preprocesamiento y el modelo están encapsulados en un **único Pipeline
 
 **Universidad:** UEES — Universidad de Especialidades Espíritu Santo  
 **Programa:** Maestría en Machine Learning  
-**Período:** 2025
+**Período:** 2026
 
 ---
 
