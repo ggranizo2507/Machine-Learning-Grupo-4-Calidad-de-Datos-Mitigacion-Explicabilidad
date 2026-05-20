@@ -68,7 +68,7 @@ El notebook `Burnout_Grupo4_Pipeline_Unificado.ipynb` contiene **19 celdas** org
 | 6 | Entrenamiento | CV 5-fold, GridSearchCV sobre alpha |
 | 7 | Evaluación | RMSE, MAE, R², residuales, overfitting |
 | 8 | Fairness | MetricFrame, DP Difference por grupo |
-| 9 | Mitigación de Sesgo | Ablación de variable sensible (`age`) |
+| 9 | Mitigación de Sesgo | Verificación que variable sensible (`age`) no introduce sesgo por grupo etario |
 | 10 | Importancia | Coeficientes Ridge + Permutation Importance |
 | 11 | PDP | Partial Dependence Plots (4 variables) |
 | 12 | SHAP | Explicabilidad global e individual exacta |
