@@ -88,7 +88,9 @@ Incluirla como feature equivale a entrenar el modelo con la respuesta disfrazada
 ```
 📦 Machine-Learning-Grupo-4-Developer-Burnout/
 ├── 📓 Calidad-de-Datos-Mitigacion-Explicabilidad_Grupo-4.ipynb   ← Notebook (19 celdas de código)
+├── 📌 Burnout_Prediccion_Grupo4_UEES.pdf                          ← Presentación técnica
 ├── 📄 developer_burnout_dataset.csv                               ← Dataset
+├── 🚀 LICENCE                                                     ← Licencia de uso
 └── 📖 README.md                                                   ← Este archivo
 ```
 
