@@ -46,8 +46,8 @@ El **burnout laboral** en desarrolladores de software es un problema creciente e
 | **Gap train→test** | `0.50%` | Sin overfitting — modelo robusto |
 | **Mejora vs baseline** | `56.7%` | Sobre DummyRegressor (predice siempre la media) |
 | **CV 5-fold RMSE** | `10.17 ± 0.11` | Alta estabilidad entre folds |
-| **Δ RMSE por jornada** | `≈ 1.03 pts` | Menor al umbral de 3 pts ✅ |
-| **Δ RMSE por edad** | `≈ 0.48 pts` | Menor al umbral de 3 pts ✅ |
+| **Δ RMSE por jornada** | `≈ 1.02 pts` | Menor al umbral de 3 pts ✅ |
+| **Δ RMSE por edad** | `≈ 0.54 pts` | Menor al umbral de 3 pts ✅ |
 
 </div>
 
