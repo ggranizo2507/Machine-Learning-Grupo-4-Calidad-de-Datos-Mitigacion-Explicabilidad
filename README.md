@@ -88,12 +88,12 @@ La Wiki está organizada en **8 páginas** que cubren todo el pipeline del proye
 | Página | Contenido |
 |:---|:---|
 | [🏠 Inicio](../../wiki/Home) | Visión general, objetivos y guía de navegación |
-| [📊 1 · Descripción del Problema y Dataset](../../wiki/1-Descripcion-del-Problema-y-Dataset) | EDA, calidad de datos, leakage detectado |
-| [⚙️ 2 · Metodología y Preprocesamiento](../../wiki/2-Metodologia-y-Preprocesamiento) | Pipeline unificado, justificación de cada decisión |
-| [🤖 3 · Modelo y Evaluación](../../wiki/3-Modelo-y-Evaluacion) | Ridge Regression, GridSearch, métricas finales |
-| [⚖️ 4 · Equidad Algorítmica](../../wiki/4-Equidad-Algoritmica) | Fairness por grupo, MetricFrame, mitigación |
+| [📊 1 · Descripción del Problema y Dataset](../../wiki/1-Descripción-del-Problema-y-Dataset) | EDA, calidad de datos, leakage detectado |
+| [⚙️ 2 · Metodología y Preprocesamiento](../../wiki/2-Metodología-y-Preprocesamiento) | Pipeline unificado, justificación de cada decisión |
+| [🤖 3 · Modelo y Evaluación](../../wiki/3-Modelo-y-Evaluación) | Ridge Regression, GridSearch, métricas finales |
+| [⚖️ 4 · Equidad Algorítmica](../../wiki/4-Equidad-Algorítmica) | Fairness por grupo, MetricFrame, mitigación |
 | [🔍 5 · Explicabilidad XAI](../../wiki/5-Explicabilidad-XAI) | SHAP, LIME, PDP, Coeficientes, Permutation Importance |
-| [🧭 6 · Reflexión Ética](../../wiki/6-Reflexion-Etica) | Riesgos, LOPDP, análisis crítico del modelo |
+| [🧭 6 · Reflexión Ética](../../wiki/6-Reflexión-Ética) | Riesgos, LOPDP, análisis crítico del modelo |
 | [✅ 7 · Conclusiones y Mejoras](../../wiki/7-Conclusiones-y-Mejoras) | Síntesis ejecutiva, recomendaciones, trabajo futuro |
 
 </div>
