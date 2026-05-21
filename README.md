@@ -28,7 +28,8 @@ Todo el preprocesamiento y el modelo están encapsulados en un **único Pipeline
 | **Christian Xavier Valle Maridueña** | LIME, PDP, Conclusiones |
 
 **Universidad:** UEES — Universidad de Especialidades Espíritu Santo  
-**Programa:** Maestría en Machine Learning  
+**Programa:** Maestría en Inteligenica Artificial
+**Materia** Machine Learning  
 **Período:** 2026
 
 ---
@@ -42,8 +43,10 @@ Todo el preprocesamiento y el modelo están encapsulados en un **único Pipeline
 | R² test | **0.8121** (explica el 81.2% de la varianza) |
 | Gap train/test | **0.50%** (sin overfitting) |
 | % dentro de ±10 pts | **67.7%** |
-| Mejora vs baseline | **56.5%** |
+| Mejora vs baseline | **56.7%** |
 | Errores graves (Bajo↔Alto) | **0** |
+
+> **Nota sobre umbrales:** el split estratificado usa [0, 35, 70, 100] para garantizar representación de rangos en train/test. La evaluación de errores de clasificación usa [0, 33, 66, 100] como criterio independiente para medir severidad del error. Son propósitos distintos.
 
 ### Equidad Algorítmica (Fairness)
 
@@ -68,7 +71,7 @@ El notebook `Burnout_Grupo4_Pipeline_Unificado.ipynb` contiene **19 celdas** org
 | 6 | Entrenamiento | CV 5-fold, GridSearchCV sobre alpha |
 | 7 | Evaluación | RMSE, MAE, R², residuales, overfitting |
 | 8 | Fairness | MetricFrame, DP Difference por grupo |
-| 9 | Mitigación de Sesgo | Verificación que variable sensible (`age`) no introduce sesgo por grupo etario |
+| 9 | Mitigación de Sesgo | Ablación de variable sensible (`age`) |
 | 10 | Importancia | Coeficientes Ridge + Permutation Importance |
 | 11 | PDP | Partial Dependence Plots (4 variables) |
 | 12 | SHAP | Explicabilidad global e individual exacta |
@@ -99,7 +102,7 @@ El notebook `Burnout_Grupo4_Pipeline_Unificado.ipynb` contiene **19 celdas** org
 ### Opción A — Google Colab (recomendado)
 
 1. Abrir [Google Colab](https://colab.research.google.com/)
-2. Subir el archivo `Calidad-de-Datos-Mitigacion-Explicabilidad_Grupo-4.ipynb`
+2. Subir el archivo `Burnout_Grupo4_Pipeline_Unificado.ipynb`
 3. Subir el dataset `developer_burnout_dataset.csv` a `/content/`
 4. Ejecutar todas las celdas en orden (`Runtime → Run all`)
 
@@ -169,3 +172,4 @@ Este modelo es una herramienta de **alerta temprana para bienestar laboral**, no
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia **MIT**. Ver [LICENSE](LICENSE) para más detalles.
+
