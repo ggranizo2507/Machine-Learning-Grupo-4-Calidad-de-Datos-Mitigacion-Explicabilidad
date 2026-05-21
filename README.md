@@ -179,7 +179,7 @@ Dataset (7,000 × 12 columnas)
   7. Evaluación — R²=0.81 | RMSE=10.17 | MAE=7.99 | Gap=0.50%
        │
        ▼
-  8. Fairness — MetricFrame | Δ RMSE ≈ 1.03 pts jornada, 0.48 pts edad
+  8. Fairness — MetricFrame | Δ RMSE ≈ 1.02 pts jornada, 0.54 pts edad
        │
        ▼
   9. XAI — SHAP · LIME (R²≈0.07–0.59) · PDP · Coeficientes · Perm. Imp.
